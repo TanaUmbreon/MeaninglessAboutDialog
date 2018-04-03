@@ -55,6 +55,7 @@
             this.MinimizeBox = false;
             this.Name = "AboutDialog";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "バージョン情報";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AboutDialog_FormClosed);
             this.Load += new System.EventHandler(this.AboutDialog_Load);
