@@ -56,6 +56,9 @@
             this.Name = "AboutDialog";
             this.ShowIcon = false;
             this.Text = "バージョン情報";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AboutDialog_FormClosed);
+            this.Load += new System.EventHandler(this.AboutDialog_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.AboutDialog_Paint);
             this.ResumeLayout(false);
 
         }
