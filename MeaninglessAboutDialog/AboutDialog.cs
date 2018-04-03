@@ -334,10 +334,16 @@ namespace MeaninglessAboutDialog
             /// </summary>
             public void Draw()
             {
-                using (Graphics g = drawingTarget.CreateGraphics())
+                // フォームを閉じてbufferがDisposeされても、
+                // タイミングによってはここが呼び出されるので例外を無視する
+                try
                 {
-                    g.DrawImage(buffer, Point.Empty);
+                    using (Graphics g = drawingTarget.CreateGraphics())
+                    {
+                        g.DrawImage(buffer, Point.Empty);
+                    }
                 }
+                catch { }
             }
         }
 
