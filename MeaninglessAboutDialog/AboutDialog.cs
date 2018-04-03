@@ -622,7 +622,7 @@ namespace MeaninglessAboutDialog
             public override void Initialize()
             {
                 brush = new SolidBrush(color);
-                font = new Font("メイリオ", emSize);
+                font = new Font("Meiryo UI", emSize);
             }
 
             /// <summary>
