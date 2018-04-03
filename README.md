@@ -1,9 +1,16 @@
 # MeaninglessAboutDialog
 
-ゼンリョクコーディングなバージョン情報ダイアログ。
+~~無駄な実装を施した~~ ゼンリョクコーディングなバージョン情報。
 
 ## 使用した素材
 
-### [エムスタジオ](https://www.emstudio.jp/)
+* エムスタジオ
+  * [URL] [https://www.emstudio.jp/](https://www.emstudio.jp/)
+    * [雪の結晶 イラスト](https://www.emstudio.jp/free/data1026/)
+* Visual Studio Image Library
+  * [URL] [https://msdn.microsoft.com/ja-jp/library/ms246582.aspx](https://msdn.microsoft.com/ja-jp/library/ms246582.aspx)
+    * バージョン情報アイコン (UIAboutBox)
 
-* [雪の結晶 イラスト](https://www.emstudio.jp/free/data1026/)
+## ライセンスについて
+
+[MIT ライセンス](LICENSE)で公開しています。
