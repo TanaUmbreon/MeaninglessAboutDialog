@@ -2,6 +2,10 @@
 
 ~~無駄な実装を施した~~ ゼンリョクコーディングなバージョン情報。
 
+## デモ画面
+
+![](https://github.com/TanaUmbreon/MeaninglessAboutDialog/raw/images/Demo.gif)
+
 ## 使用した素材
 
 * エムスタジオ
